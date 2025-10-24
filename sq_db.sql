@@ -19,3 +19,10 @@ email text NOT NULL,
 psw text NOT NULL,
 time integer NOT NULL
 );
+
+
+INSERT INTO mainmenu (title, url) VALUES ('Главная', '/');
+INSERT INTO mainmenu (title, url) VALUES ('Добавить статью', '/add_post');
+INSERT INTO mainmenu (title, url) VALUES ('Авторизация', '/login');
+INSERT INTO mainmenu (title, url) VALUES ('Выход', '/logout');
+INSERT INTO mainmenu (title, url) VALUES ('Регистрация', '/register');
